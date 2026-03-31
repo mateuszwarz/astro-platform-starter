@@ -1,0 +1,35 @@
+# Sekrety — NIGDY nie commitować
+.env
+*.env.local
+*.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logi
+*.log
+logs/
+
+# Baza danych
+*.db
+*.sqlite
+
+# Docker
+*.override.yml
+
+# IDE
+.idea/
+.vscode/
+*.swp
